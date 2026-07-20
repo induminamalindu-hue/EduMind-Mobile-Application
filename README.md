@@ -41,11 +41,13 @@
 
 | Login / Auth | Dashboard | Attendance Scan |
 | :---: | :---: | :---: |
-| *[Add Screenshot Here]* | *[Add Screenshot Here]* | *[Add Screenshot Here]* |
+| <img width="189" height="391" alt="image" src="https://github.com/user-attachments/assets/eccfff30-1761-44f2-86ba-7be0bee03f1b" />  | <img width="188" height="392" alt="Screenshot 2026-07-20 203107" src="https://github.com/user-attachments/assets/349281c1-8629-4b57-a651-e368c2371692" />  | <img width="191" height="392" alt="Screenshot 2026-07-20 203241" src="https://github.com/user-attachments/assets/7d76f05b-423d-4897-8c7f-bffa88badca2" />
+ |
 
 | Attendance Report | Marks Management | Learning Materials |
 | :---: | :---: | :---: |
-| *[Add Screenshot Here]* | *[Add Screenshot Here]* | *[Add Screenshot Here]* |
+| <img width="188" height="394" alt="Screenshot 2026-07-20 204346" src="https://github.com/user-attachments/assets/854c655d-f19c-44cf-a506-e7a962a1d6f5" /> | <img width="188" height="394" alt="Screenshot 2026-07-20 204801" src="https://github.com/user-attachments/assets/b4671650-1a6c-40a5-9198-bbd69c147db9" /> | <img width="188" height="392" alt="Screenshot 2026-07-20 204950" src="https://github.com/user-attachments/assets/7dcddefb-a0b4-4de2-bb56-546e65390355" />
+ |
 
 ---
 
