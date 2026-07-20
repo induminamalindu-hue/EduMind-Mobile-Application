@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ink">#1A1D29</color>
+    <color name="paper">#F5F6FA</color>
+    <color name="white">#FFFFFF</color>
+    <color name="slate">#E1E4EC</color>
+
+    <color name="admin">#3949AB</color>
+    <color name="admin_dark">#2A3585</color>
+    <color name="admin_soft">#E8EAF6</color>
+
+    <color name="faculty">#00897B</color>
+    <color name="faculty_dark">#00695C</color>
+    <color name="faculty_soft">#DFF3F0</color>
+
+    <color name="student">#C97F00</color>
+    <color name="student_dark">#A86400</color>
+    <color name="student_soft">#FDF1DC</color>
+
+    <color name="success">#2E7D32</color>
+    <color name="warn">#B26A00</color>
+    <color name="danger">#C62828</color>
+
+    <color name="purple_500">#6750A4</color>
+</resources>

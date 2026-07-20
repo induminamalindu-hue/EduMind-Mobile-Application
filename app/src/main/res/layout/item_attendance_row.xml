@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingVertical="10dp">
+
+    <TextView
+        android:id="@+id/studentName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/ink"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/studentNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#88000000"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:orientation="horizontal">
+
+        <Button android:id="@+id/presentButton" style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+            android:text="Present" android:textAllCaps="false" android:textSize="11sp" />
+        <Button android:id="@+id/lateButton" style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+            android:layout_marginStart="4dp" android:text="Late" android:textAllCaps="false" android:textSize="11sp" />
+        <Button android:id="@+id/absentButton" style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+            android:layout_marginStart="4dp" android:text="Absent" android:textAllCaps="false" android:textSize="11sp" />
+    </LinearLayout>
+
+    <View android:layout_width="match_parent" android:layout_height="1dp"
+        android:layout_marginTop="10dp" android:background="@color/slate" />
+</LinearLayout>

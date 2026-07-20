@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Simple mortarboard-style glyph, centered in the 108x108 adaptive icon canvas -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,30 L90,45 L54,60 L18,45 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M34,52 L34,70 C34,76 43,82 54,82 C65,82 74,76 74,70 L74,52 L54,60 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M88,45 L90,45 L90,66 L86,66 L86,45 Z" />
+</vector>

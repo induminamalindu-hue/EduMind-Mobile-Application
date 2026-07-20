@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingHorizontal="16dp"
+    android:paddingVertical="10dp">
+
+    <TextView android:id="@+id/name" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:textColor="@color/ink" android:textStyle="bold" />
+    <TextView android:id="@+id/studentNo" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:textColor="#88000000" android:textSize="12sp" />
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:layout_marginTop="6dp">
+
+        <EditText android:id="@+id/internalInput" android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:hint="Internal" android:inputType="numberDecimal" />
+        <EditText android:id="@+id/examInput" android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:layout_marginStart="8dp" android:hint="Exam" android:inputType="numberDecimal" />
+    </LinearLayout>
+
+    <View android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="10dp" android:background="@color/slate" />
+</LinearLayout>

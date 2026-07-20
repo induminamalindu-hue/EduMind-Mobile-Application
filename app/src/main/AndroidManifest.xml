@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+
+    <application
+        android:name=".EduMindApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="EduMind"
+        android:theme="@style/Theme.EduMind"
+        android:usesCleartextTraffic="${usesCleartextTraffic}">
+
+        <activity android:name=".auth.SplashActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".auth.LoginActivity" android:exported="false" />
+        <activity android:name=".auth.RegisterActivity" android:exported="false" />
+        <activity android:name=".auth.OtpVerifyActivity" android:exported="false" />
+        <activity android:name=".auth.RecaptchaActivity" android:exported="false" />
+
+        <activity android:name=".common.JsonListActivity" android:exported="false" />
+
+        <activity android:name=".admin.AdminDashboardActivity" android:exported="false" />
+        <activity android:name=".admin.AdminUsersActivity" android:exported="false" />
+
+        <activity android:name=".faculty.FacultyDashboardActivity" android:exported="false" />
+        <activity android:name=".faculty.FacultyAttendanceActivity" android:exported="false" />
+        <activity android:name=".faculty.FacultyAttendanceReportActivity" android:exported="false" />
+        <activity android:name=".faculty.FacultyMarksActivity" android:exported="false" />
+        <activity android:name=".faculty.FacultyMaterialsActivity" android:exported="false" />
+
+        <activity android:name=".student.StudentDashboardActivity" android:exported="false" />
+        <activity android:name=".student.StudentNotificationsActivity" android:exported="false" />
+        <activity android:name=".student.ScanAttendanceActivity" android:exported="false" />
+
+        <activity
+            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+            android:screenOrientation="portrait"
+            tools:replace="screenOrientation" />
+
+    </application>
+</manifest>

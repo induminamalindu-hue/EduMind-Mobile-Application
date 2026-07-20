@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.EduMind" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/admin</item>
+        <item name="colorPrimaryDark">@color/admin_dark</item>
+        <item name="colorAccent">@color/admin</item>
+        <item name="android:windowBackground">@color/paper</item>
+    </style>
+
+    <style name="Theme.EduMind.Faculty" parent="Theme.EduMind">
+        <item name="colorPrimary">@color/faculty</item>
+        <item name="colorPrimaryDark">@color/faculty_dark</item>
+        <item name="colorAccent">@color/faculty</item>
+    </style>
+
+    <style name="Theme.EduMind.Student" parent="Theme.EduMind">
+        <item name="colorPrimary">@color/student</item>
+        <item name="colorPrimaryDark">@color/student_dark</item>
+        <item name="colorAccent">@color/student</item>
+    </style>
+</resources>

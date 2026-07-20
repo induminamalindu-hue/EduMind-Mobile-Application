@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        html, body {
+            margin: 0;
+            padding: 16px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: #F5F6FA;
+            font-family: sans-serif;
+        }
+    </style>
+
+    <script src="https://www.google.com/recaptcha/api.js?render=explicit" async defer></script>
+
+    <script>
+        function onSuccess(token) {
+            console.log("TOKEN:", token);
+            if (window.Android && Android.onToken) {
+                Android.onToken(token);
+            }
+        }
+
+        function onExpired() {
+            if (window.Android && Android.onExpired) {
+                Android.onExpired();
+            }
+        }
+
+        function onError() {
+            if (window.Android && Android.onError) {
+                Android.onError();
+            }
+        }
+
+        function renderCaptcha() {
+            if (typeof grecaptcha !== "undefined" && document.getElementById("recaptcha")) {
+                grecaptcha.render('recaptcha', {
+                    'sitekey': '6Le0Wk8tAAAAACjMFq-1U5OrF-SOq5MAlqPFeDPO',
+                    'callback': onSuccess,
+                    'expired-callback': onExpired,
+                    'error-callback': onError
+                });
+            } else {
+                setTimeout(renderCaptcha, 500);
+            }
+        }
+
+        window.onload = renderCaptcha;
+    </script>
+</head>
+
+<body>
+<div id="recaptcha"></div>
+</body>
+</html>
